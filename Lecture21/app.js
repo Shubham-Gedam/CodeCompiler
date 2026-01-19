@@ -1,15 +1,15 @@
 //Prototype & Inheritence in JS
 
 
-// const arr = [1,2,3];
+const arr = [1,2,3];
 
-// Array.prototype.sayHello = function(){
-//     return "sayHollo...."
-// };
-// Array.prototype.last = function(){
-//     return this[this.length - 1]
-// }
-// console.log(arr.last());
+Array.prototype.sayHello = function(){
+    return "sayHollo...."
+};
+Array.prototype.last = function(){
+    return this[this.length - 1]
+}
+console.log(arr.last());
 
 // console.log(arr.__proto__); // this is called prototype chaning
 
