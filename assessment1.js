@@ -9,18 +9,18 @@ console.log(a);
 
 
 
-// console.log(typeof x);
+console.log(typeof x);
 
-// let x = 5;
+let x = 5;
 
 
-// console.log('A');
+console.log('A');
 
-// setTimeout(() => console.log('B'), 0);
+setTimeout(() => console.log('B'), 0);
 
-// Promise.resolve().then(() => console.log('C'));
+Promise.resolve().then(() => console.log('C'));
 
-// console.log('D');
+console.log('D');
 
 
 
