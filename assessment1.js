@@ -1,26 +1,26 @@
-console.log(a);
+// console.log(a);
 
-var a = 10;
+// var a = 10;
 
-function a() {}
+// function a() {}
 
-console.log(a);
-
-
+// console.log(a);
 
 
-console.log(typeof x);
-
-let x = 5;
 
 
-console.log('A');
+// console.log(typeof x);
 
-setTimeout(() => console.log('B'), 0);
+// let x = 5;
 
-Promise.resolve().then(() => console.log('C'));
 
-console.log('D');
+// console.log('A');
+
+// setTimeout(() => console.log('B'), 0);
+
+// Promise.resolve().then(() => console.log('C'));
+
+// console.log('D');
 
 
 
@@ -40,60 +40,60 @@ console.log('D');
 
 
 
-// const obj = {
+const obj = {
 
-// value: 42,
+value: 42,
 
-// a: () => console.log(this.value),
+a: () => console.log(this.value),
 
-// b: function () { console.log(this.value); }
+b: function () { console.log(this.value); }
 
-// };
+};
 
-// obj.a();
+obj.a();
 
-// obj.b();
+obj.b();
 
 
 
 
 // Guess the Output ??
 
-// function makeCounter() {
+function makeCounter() {
 
-// let n = 0;
+let n = 0;
 
-// return () => ++n;
+return () => ++n;
 
-// }
+}
 
-// const c1 = makeCounter();
+const c1 = makeCounter();
 
-// const c2 = makeCounter();
+const c2 = makeCounter();
 
-// console.log(c1());
+console.log(c1());
 
-// console.log(c1());
+console.log(c1());
 
-// console.log(c2());
-
-
+console.log(c2());
 
 
 
-// const user = {
 
-// _age: 10,
 
-// get age() { return this._age + 1; },
+const user = {
 
-// set age(v) { this._age = v * 2; }
+_age: 10,
 
-// };
+get age() { return this._age + 1; },
 
-// user.age = 20;
+set age(v) { this._age = v * 2; }
 
-// console.log(user._age, user.age);
+};
+
+user.age = 20;
+
+console.log(user._age, user.age);
 
 
 
