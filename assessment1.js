@@ -22,9 +22,8 @@
 
 // console.log('D');
 
-
-
 // setTimeout(() => console.log('T1'), 0);
+
 
 // for (let i = 0; i < 1e6; i++) {}
 
@@ -40,60 +39,60 @@
 
 
 
-const obj = {
+// const obj = {
 
-value: 42,
+// value: 42,
 
-a: () => console.log(this.value),
+// a: () => console.log(this.value),
 
-b: function () { console.log(this.value); }
+// b: function () { console.log(this.value); }
 
-};
+// };
 
-obj.a();
+// obj.a();
 
-obj.b();
+// obj.b();
 
 
 
 
 // Guess the Output ??
 
-function makeCounter() {
+// function makeCounter() {
 
-let n = 0;
+// let n = 0;
 
-return () => ++n;
+// return () => ++n;
 
-}
+// }
 
-const c1 = makeCounter();
+// const c1 = makeCounter();
 
-const c2 = makeCounter();
+// const c2 = makeCounter();
 
-console.log(c1());
+// console.log(c1());
 
-console.log(c1());
+// console.log(c1());
 
-console.log(c2());
-
-
+// console.log(c2());
 
 
 
-const user = {
 
-_age: 10,
 
-get age() { return this._age + 1; },
+// const user = {
 
-set age(v) { this._age = v * 2; }
+// _age: 10,
 
-};
+// get age() { return this._age + 1; },
 
-user.age = 20;
+// set age(v) { this._age = v * 2; }
 
-console.log(user._age, user.age);
+// };
+
+// user.age = 20;
+
+// console.log(user._age, user.age);
 
 
 
@@ -121,18 +120,18 @@ console.log(user._age, user.age);
 
 
 
-// const { a = 1 } = { a: undefined };
+const { a = 1 } = { a: undefined };
 
-// console.log(a);
-
-
+console.log(a);
 
 
 
 
-// const { x = 10, y = 20 } = { x: undefined, y: null };
 
-// console.log(x, y);
+
+const { x = 10, y = 20 } = { x: undefined, y: null };
+
+console.log(x, y);
 
 
 

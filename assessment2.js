@@ -1,10 +1,10 @@
-// const obj = { a: { b: 1 } };
+const obj = { a: { b: 1 } };
 
-// const c1 = { ...obj };
+const c1 = { ...obj };
 
-// c1.a.b = 2;
+c1.a.b = 2;
 
-// console.log(obj.a.b);
+console.log(obj.a.b);
 
 
 
@@ -21,7 +21,7 @@
 // .
 // Guess the Output ?
 
-// console.log([1,2,3].map(x => x*2).filter(x => x > 3).reduce((a,b) => a+b, 0));
+console.log([1,2,3].map(x => x*2).filter(x => x > 3).reduce((a,b) => a+b, 0));
 
 
 
