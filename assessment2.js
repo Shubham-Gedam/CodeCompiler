@@ -51,13 +51,13 @@ console.log([1,2,3].map(x => x*2).filter(x => x > 3).reduce((a,b) => a+b, 0));
 // .
 // Guess the Output ?
 
-// function add(y, z) { return this.x + y + z; }
+function add(y, z) { return this.x + y + z; }
 
-// const obj2 = { x: 10 };
+const obj2 = { x: 10 };
 
-// const f = add.bind(obj2, 5);
+const f = add.bind(obj2, 5);
 
-// console.log( f(2), add.call({x:1}, 2, 3), add.apply({x:2}, [3,4]) );
+console.log( f(2), add.call({x:1}, 2, 3), add.apply({x:2}, [3,4]) );
 
 
 
@@ -66,13 +66,13 @@ console.log([1,2,3].map(x => x*2).filter(x => x > 3).reduce((a,b) => a+b, 0));
 // .
 // Guess the Output ?
 
-// function A() {}
+function A() {}
 
-// A.prototype.g = () => 'G';
+A.prototype.g = () => 'G';
 
-// const a = new A();
+const a = new A();
 
-// console.log(a.g(), Object.getPrototypeOf(a) === A.prototype);
+console.log(a.g(), Object.getPrototypeOf(a) === A.prototype);
 
 
 
