@@ -84,11 +84,11 @@ console.log(a.g(), Object.getPrototypeOf(a) === A.prototype);
 
 
 
-// const sum = (...args) => args.reduce((a,b) => a+b, 0);
+const sum = (...args) => args.reduce((a,b) => a+b, 0);
 
-// const a1 = [1,2], a2 = [3,4];
+const a1 = [1,2], a2 = [3,4];
 
-// console.log( sum(...a1, ...a2) );
+console.log( sum(...a1, ...a2) );
 
 
 
@@ -103,13 +103,13 @@ console.log(a.g(), Object.getPrototypeOf(a) === A.prototype);
 
 
 
-// const s = new Set([1,2,2,3]);
+const s = new Set([1,2,2,3]);
 
-// const m = new Map([[1,'a']]);
+const m = new Map([[1,'a']]);
 
-// m.set({}, 'x');
+m.set({}, 'x');
 
-// console.log(s.size, m.has(1), m.size);
+console.log(s.size, m.has(1), m.size);
 
 
 
@@ -121,15 +121,15 @@ console.log(a.g(), Object.getPrototypeOf(a) === A.prototype);
 
 // Guess the Output ?
 
-// document.body.addEventListener('click', () => console.log('body'));
+document.body.addEventListener('click', () => console.log('body'));
 
-// const div = document.createElement('div');
+const div = document.createElement('div');
 
-// document.body.appendChild(div);
+document.body.appendChild(div);
 
-// div.addEventListener('click', () => console.log('div'));
+div.addEventListener('click', () => console.log('div'));
 
-// div.click();
+div.click();
 
 
 
