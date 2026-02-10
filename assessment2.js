@@ -137,15 +137,15 @@ div.click();
 
 
 
-// Promise.resolve(1)
+Promise.resolve(1)
 
-// .then(x => x + 1)
+.then(x => x + 1)
 
-// .then(x => { throw x; })
+.then(x => { throw x; })
 
-// .catch(x => x + 1)
+.catch(x => x + 1)
 
-// .then(console.log);
+.then(console.log);
 
 
 
