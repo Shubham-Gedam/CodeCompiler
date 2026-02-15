@@ -137,13 +137,13 @@ console.log(x, y);
 
 
 
-// const [p, , q] = [1, 2, 3];
+const [p, , q] = [1, 2, 3];
 
-// console.log(p, q);
-
-
+console.log(p, q);
 
 
-// const data = [" ", "", undefined];
 
-// console.log(data.filter(item => item));
+
+const data = [" ", "", undefined];
+
+console.log(data.filter(item => item));

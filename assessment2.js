@@ -152,12 +152,12 @@ Promise.resolve(1)
 
 // async function f() {
 
-// try { return await Promise.reject('err'); }
+try { return await Promise.reject('err'); }
 
-// catch (e) { return 'caught'; }
+catch (e) { return 'caught'; }
 
-// finally { console.log('finally'); }
+finally { console.log('finally'); }
 
-// }
+}
 
-// f().then(console.log);
+f().then(console.log);
