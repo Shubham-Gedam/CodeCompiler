@@ -33,16 +33,16 @@ console.log([1,2,3].map(x => x*2).filter(x => x > 3).reduce((a,b) => a+b, 0));
 // .
 // Guess the Output ?
 
-// const arr = [5,12,8,130,44];
+const arr = [5,12,8,130,44];
 
-// console.log( arr.find(x => x > 10), arr.findIndex(x => x > 100) )
-
-
+console.log( arr.find(x => x > 10), arr.findIndex(x => x > 100) )
 
 
-// const nums = [1,2,3,4];
 
-// console.log(nums.splice(1, 2, 9), nums, nums.slice(1, 3));
+
+const nums = [1,2,3,4];
+
+console.log(nums.splice(1, 2, 9), nums, nums.slice(1, 3));
 
 
 
@@ -51,13 +51,13 @@ console.log([1,2,3].map(x => x*2).filter(x => x > 3).reduce((a,b) => a+b, 0));
 // .
 // Guess the Output ?
 
-function add(y, z) { return this.x + y + z; }
+// function add(y, z) { return this.x + y + z; }
 
-const obj2 = { x: 10 };
+// const obj2 = { x: 10 };
 
-const f = add.bind(obj2, 5);
+// const f = add.bind(obj2, 5);
 
-console.log( f(2), add.call({x:1}, 2, 3), add.apply({x:2}, [3,4]) );
+// console.log( f(2), add.call({x:1}, 2, 3), add.apply({x:2}, [3,4]) );
 
 
 
@@ -70,14 +70,14 @@ function A() {}
 
 A.prototype.g = () => 'G';
 
-const a = new A();
+const ab= new A();
 
-console.log(a.g(), Object.getPrototypeOf(a) === A.prototype);
-
-
+console.log(ab.g(), Object.getPrototypeOf(ab) === A.prototype);
 
 
-// console.log( Boolean([]), Boolean(''), !!null, !!'0' );
+
+
+console.log( Boolean([]), Boolean(''), !!null, !!'0' );
 
 
 
@@ -95,9 +95,9 @@ console.log( sum(...a1, ...a2) );
 
 
 
-// const a = 0, b = 2;
+const a = 0, b = 2;
 
-// console.log( a || (b > 1 ? 'yes' : 'no') && 'ok' );
+console.log( a || (b > 1 ? 'yes' : 'no') && 'ok' );
 
 
 
@@ -158,6 +158,6 @@ catch (e) { return 'caught'; }
 
 finally { console.log('finally'); }
 
-}
+
 
 f().then(console.log);
